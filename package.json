@@ -1,0 +1,28 @@
+{
+  "name": "borgify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3100",
+    "build": "next build",
+    "start": "next start -p 3100",
+    "analyze": "ANALYZE=true next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@motionone/utils": "^10.18.0",
+    "@studio-freight/lenis": "^1.0.42",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "^0.562.0",
+    "motion": "^12.23.12",
+    "next": "^16.1.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^16.1.0",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
